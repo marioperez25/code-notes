@@ -1,0 +1,11 @@
+MAVEN - MVN
+
+project building for JAVA based projects
+
+mvn clean install -PautoInstallPackage 
+
+// current course: https://app.pluralsight.com/courses/19234d4c-d084-4184-8bf4-eff3faa29664/table-of-contents
+
+// check FUNDAMENTAL BUILDING PROJECTS IN AEM
+
+Event ID: CRO-2180-HBEM

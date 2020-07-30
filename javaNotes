@@ -1,0 +1,7 @@
+java file extension is:
+	.java
+
+to compile a java file run:
+
+	javac FileName.java
+

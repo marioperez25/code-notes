@@ -1,0 +1,62 @@
+LOG:
+
+git log -p | Show the patch introduced with each commit. (code changes)
+git log --stat | Show files modified in each commit with statistics.
+git log --relative-date | fecha relative (one day ago, two days ago)
+git log -5 | last 5 commits
+git log --since since="2020-05-2"| ...since
+
+git log 'relative path with / and file extentions allowed'
+
+AMMEND // re-review
+
+git commit –amend | add you latest staged changes to your lastprevious commit, if no changes you can still modify the commit message
+
+GIT RESET and CHECKOUT
+
+git reset | resets staging area
+git checkout -- file-name.ext | resets single file, cannot revert this action
+
+GIT REPO INFO:
+
+git remote -v
+
+SEND COMMITS:
+
+git push 
+git push origin master
+
+GIT DIFF:
+
+git diff allows me to see the difference between my working copy and staged copy by running
+git diff --cached to see the difference between the staged copy and committed copy by running
+
+git diff master:foo foo || git diff foo master:foo
+
+git diff master:foo foo
+
+git diff corteva/corteva.ui.apps/src/main/content/jcr_root/apps/corteva/components/content/globalNewNavigation/v1/locationSelector/clientlib/styles/location.scss master:corteva/corteva.ui.apps/src/main/content/jcr_root/apps/corteva/components/content/globalNewNavigation/v1/locationSelector/clientlib/styles/location.scss
+
+STASH
+
+git stash | guarda en el area de stash los cambios locales + stage
+git stash apply | aplica lo ultimo que puso en stash 
+git stash clear | borra TODO el stash 
+git stash list | una lista del stash
+
+my fav mixes: 
+
+git log -3 -p
+
+CORE 
+
+HTML
+CSS/SCSS
+JS
+JQUERY
+
+DEBUGGING IN THE BROWSER
+
+
+
+
